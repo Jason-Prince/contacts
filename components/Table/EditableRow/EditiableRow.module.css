@@ -1,0 +1,49 @@
+.tRow {
+  display: grid;
+  gap: 0.1em;
+  grid-template-columns: repeat(5, minmax(350px, 1fr));
+}
+.tData {
+  padding: 0.5em;
+  background-color: rgb(205, 235, 253);
+  font-size: 1.25rem;
+  margin-bottom: 0.1em;
+  place-self: center;
+  width: 100%;
+}
+.input {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0.13em 0.2em;
+  border: 2px solid black;
+  width: 97%;
+  margin: 0.3em 0;
+}
+.input:hover {
+  border-color: red;
+}
+.input:focus {
+  background-color: white;
+  outline: 2px solid red;
+  outline-offset: 2px;
+  border-color: black;
+}
+.btnContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+}
+.button {
+  font-size: 1.25rem;
+  margin: 0.3em 0;
+  padding: 0.13em 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+}
+.button:focus {
+  outline: 2px solid red;
+  outline-offset: 2px;
+}

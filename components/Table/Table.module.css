@@ -1,0 +1,18 @@
+.tTable {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+.tHeadRow {
+  display: grid;
+  gap: 0.1em;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.tHeadCol {
+  background-color: rgb(117, 201, 250);
+}
+.tBody {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.1em;
+}
